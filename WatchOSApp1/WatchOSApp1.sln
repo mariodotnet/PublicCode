@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchOSApp1.WatchOSApp", "WatchOSApp1\WatchOSApp1.WatchOSApp\WatchOSApp1.WatchOSApp.csproj", "{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchOSApp1.WatchOSExtension", "WatchOSApp1\WatchOSApp1.WatchOSExtension\WatchOSApp1.WatchOSExtension.csproj", "{37527E65-5B5E-4762-82D4-ABF66FC6DADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Release|iPhone.Build.0 = Release|iPhone
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A5E9E401-E5A1-4EA5-B0F9-D927F3285AEA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Release|iPhone.Build.0 = Release|iPhone
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{37527E65-5B5E-4762-82D4-ABF66FC6DADD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
