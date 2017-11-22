@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script>
+
+        // Definimos la clase Maquina (en este ejemplo utilizamos function, pero hay otras alternativas)
+        function Maquina() {
+
+            //definimos una variable con el nombre root, esto nos permite utilizar propiedades
+            //globales desde metodos internos (ver metodo imprimir)
+            var root = this;
+
+            //variable publica
+            this.Nombre = "";
+
+            //variable publica
+            this.Descripcion = "";
+
+            //metodo publico, operación sin retorno
+            this.Imprimir = function () {
+                console.log(root.Nombre);
+                console.log(root.Descripcion);
+            }
+
+            //metodo puvlico, operación con retorno
+            this.ObtenerNombre = function () {
+                return root.Nombre;
+            }
+        }
+
+        // hacemos una instancia
+        var miMaquina = new Maquina();
+
+        //modificamos unas variables
+        miMaquina.Nombre = "Maquina de costura";
+        miMaquina.Descripcion = "Esta maquina costura prendas de vestir";
+
+        //Ejecutamos un metodo sin retorno
+        miMaquina.Imprimir();
+
+        //Ejecutamos un metodo y luego
+        var resultado = miMaquina.ObtenerNombre();
+        console.log(resultado);
+            
+        
+    </script>
+</head>
+    <bod>
+        <p>...contenido</p>
+    </bod>
+</html>
