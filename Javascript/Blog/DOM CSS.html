@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <p id="etiqueta1">demo1</p>
+        <p name="etiqueta2">demo2</p>
+        <p>demo3</p>
+        
+        <script>
+            // establece un borde de 1px solido color rojo
+            var obj1 = document.getElementById("etiqueta1");
+            obj1.style.border = "1px solid red";
+
+            // establece el elemento de color azul
+            var obj2 = document.getElementsByTagName("p");
+            obj2[2].style.color = "blue";
+
+            // cambia la fuente a tipo courier
+            var obj3 = document.getElementsByName("etiqueta2")
+            obj3[0].style.fontFamily = "courier";            
+            
+        </script>
+    </body>
+</html>
