@@ -8,44 +8,37 @@ namespace LinkedList
 {
     public class LinkedListClass
     {
-        Node root; // keeps track of head, TODO, rename to head.
-        Node tail; // keeps track of tail
+        Node root; // raiz
+        Node cola; // keeps track of tail
 
-        /// <summary>
-        /// Adds a node as a child of tail
-        /// </summary>
-        /// <param name="n"></param>
+        /// agrega un elemento hijo
         public void AddNode(Node n)
         {
             if (root == null)
             {
                 root = n;
-                tail = n;
+                cola = n;
             }
 
-            tail.child = n;
-            tail = n;
+            cola.hijo = n;
+            cola = n;
         }
 
-        /// <summary>
-        /// Prints all nodes starting from root
-        /// </summary>
+        /// imprime todos los nodos
         public void Print()
         {
             Node p = root;
             while (p != null)
             {
                 Console.WriteLine(p.value);
-                p = p.child;
+                p = p.hijo;
             }
         }
 
-        /// <summary>
         /// Removes root
-        /// </summary>
         internal void Remove()
         {
-            root = root.child;
+            root = root.hijo;
         }
     }
 }

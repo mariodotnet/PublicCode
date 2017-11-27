@@ -2,7 +2,7 @@
 {
     public class Node
     {
-        public Node child;
+        public Node hijo;
 
         public string value;
     }
