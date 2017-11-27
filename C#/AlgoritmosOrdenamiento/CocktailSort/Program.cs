@@ -22,10 +22,7 @@ namespace CocktailSort
             Console.ReadLine();
         }
 
-        /// <summary>
         /// Sorts input array.
-        /// </summary>
-        /// <returns></returns>
         public static int[] cocktailSort(int[] input)
         {
             bool swapped;
